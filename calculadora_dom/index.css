@@ -1,0 +1,41 @@
+* {
+    margin: auto;
+    margin-top: 20px;
+}
+
+table, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 233px;
+    height: 45px;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dfdfdf;
+}
+
+.displayNumbers {
+    height: 77px;
+    background-color: #2d344b;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#mathOperator {
+    background-color: #eb984e;
+    color: white;
+    font-size: x-large;
+}
+
+.clean {
+    text-align: left;
+    padding-left: 10%;
+}
+
+#cero {
+    text-align: left;
+    padding-left: 10%;
+}
