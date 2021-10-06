@@ -2,12 +2,15 @@
 const arrayNumbers = [];
 let arrayResults = [];
 let valoration;
-// eslint-disable-next-line no-alert
-const numberOne = parseFloat(prompt("Insert first number:"));
-// eslint-disable-next-line no-alert
-const numberTwo = parseFloat(prompt("Insert second number:"));
+let numberOne;
+let numberTwo;
 arrayNumbers.push(numberOne);
 arrayNumbers.push(numberTwo);
+
+// eslint-disable-next-line no-alert
+numberOne = parseFloat(prompt("Insert first number:"));
+// eslint-disable-next-line no-alert
+numberTwo = parseFloat(prompt("Insert second number:"));
 
 /*
  * Función para calcular la raíz cuadrada
@@ -18,9 +21,7 @@ arrayNumbers.push(numberTwo);
  * @return: resultado de la raíz cuadrada
  */
 function resultRootSquare(numVal) {
-  const numFinal = Math.sqrt(numVal);
-
-  return numFinal;
+  return Math.sqrt(numVal);
 }
 
 /*
@@ -234,3 +235,12 @@ function arrayAnalize(arrNumbers) {
 }
 
 valoration = arrayAnalize(arrayNumbers);
+
+// module.exports = nombre_de_la_función;
+module.exports = resultRootSquare;
+module.exports = resultSum;
+module.exports = resultRest;
+module.exports = resultMult;
+module.exports = resultDiv;
+module.exports = formatNumberArray;
+module.exports = valorationNumber;
